@@ -1,5 +1,6 @@
 replicaCount: 1
-
+ingress:
+  enabled: false
 image:
   repository: nginx
   tag: latest
